@@ -1,4 +1,4 @@
-service: aws-node-express-dynamo
+service: sls-nodejs
 frameworkVersion: "3"
 
 # custom:

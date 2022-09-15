@@ -5,8 +5,8 @@ const { RtUser } = require("./router/user.router");
 
 const app = express();
 
-const USERS_TABLE = process.env.USERS_TABLE;
-const dynamoDbClient = new AWS.DynamoDB.DocumentClient();
+// const USERS_TABLE = process.env.USERS_TABLE;
+// const dynamoDbClient = new AWS.DynamoDB.DocumentClient();
 
 app.use(express.json());
 
